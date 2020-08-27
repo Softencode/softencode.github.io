@@ -6,6 +6,8 @@
 
 <hr/>
 
+# Our team is a very friendly team consisting of 4 players, but one of them is not active, so it becomes 3:
+
 # Our captain / Leader:
 <table>
   <tr>
