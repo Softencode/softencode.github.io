@@ -1,5 +1,7 @@
 .avatar {
-  border-style: none;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
   border-radius: 50%;
 }
 
