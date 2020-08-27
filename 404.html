@@ -14,8 +14,8 @@
       }
       #light {
         border-radius: 50%;
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
         background-color: yellow;
         position: absolute;
         left: 90%;
@@ -25,7 +25,14 @@
       function light() {
         var num;
         num = Math.floor(Math.random() * 3) + 1;
-        document.getElement
+        if(num == 1) {
+          document.getElementById("text").style.color = "grey";
+          document.getElementById("light").style.background = "linen";
+        }
+        else {
+          document.getElementById("text").style.color = "white";
+          document.getElementById("light").style.background = "yellow";
+        }
       }
     </script>
   </head>
