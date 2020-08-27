@@ -1,3 +1,8 @@
 .avatar {
+  border-style: none;
   border-radius: 50%;
+}
+
+.nav {
+  background-color: black;
 }
