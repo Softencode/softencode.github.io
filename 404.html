@@ -10,21 +10,26 @@
         color: white;
       }
       .big {
-        font-size: 500%;
+        font-size: 1000%;
       }
       #light {
         border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        background-color: yellow;
+        position: absolute;
+        left: 90%;
       }
     </style>
     <script>
       function light() {
         var num;
-        num = Math.floor();
+        num = Math.floor(Math.random() * 3) + 1;
+        document.getElement
       }
-      window.resize = light();
     </script>
   </head>
-  <body>
+  <body onmouseover="light()">
     <span class="big" id="text">404</span>
     <div id="light" />
   </body>
