@@ -17,3 +17,15 @@ body {
   padding: 1em;
   background-color: linen;
 }
+header {
+    width: 100%;
+    height: 65px;
+    background: #666;
+    margin:-25px -25px;
+    position: fixed;
+    color: #FFF;
+}
+header a {
+    display: inline-block;
+    color: #FFF;
+}
